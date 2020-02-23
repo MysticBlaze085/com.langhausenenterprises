@@ -7,7 +7,9 @@ import { NgbModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { WebsiteComponent } from './containers/website/website.component';
 import { MatIconModule } from '@angular/material/icon';
 import { ImageSliderComponent } from './components/image-slider/image-slider.component';
-import { SectionsComponent } from './components/sections/sections.component';
+import {ServicesSectionComponent} from './components/services-section/services-section.component';
+import { AboutSectionComponent } from './components/about-section/about-section.component';
+import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SectionsComponent } from './components/sections/sections.component';
     TopNavigationComponent,
     WebsiteComponent,
     ImageSliderComponent,
-    SectionsComponent
+    ServicesSectionComponent,
+    AboutSectionComponent,
+    ContactSectionComponent
   ],
   imports: [
     CommonModule,

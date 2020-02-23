@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/animated_cogwheel_by_lunar_alienism-d59wxbv.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/image_011.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/image_08.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/jukebox-975086_1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/music-box-1419792_1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/showcase.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/terry.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vintage-1872682_1280.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/vinyl-records-945396_1280.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/sections/sections.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/sections/sections.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/sections/sections.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/sections/sections.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/containers/website/website.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/website/website.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/website.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/website.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +53,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -104,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
-      <workItem from="1582482299550" duration="14368000" />
+      <workItem from="1582482299550" duration="17352000" />
     </task>
     <servers />
   </component>
@@ -143,14 +136,14 @@
     </state>
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377477" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state x="468" y="179" key="SettingsEditor" timestamp="1582482287832">
+    <state x="468" y="179" key="SettingsEditor" timestamp="1582498090100">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582482287832" />
-    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582496096802">
+    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582498090100" />
+    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582500295276">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582496096802" />
+    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582500295276" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.23.1920.1057/0.0.1920.1014@0.0.1920.1014" timestamp="1582424050211" />
   </component>
 </project>
