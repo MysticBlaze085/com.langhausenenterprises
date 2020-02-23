@@ -1,0 +1,12 @@
+<div class="d-flex flex-row justify-content-center">
+  <ngb-carousel interval="3000" class="mt-4 w-75 d-flex flex-row justify-content-center" *ngIf="sliderImages" [showNavigationArrows]="showNavigationArrows" [showNavigationIndicators]="showNavigationIndicators">
+    <ng-template ngbSlide *ngFor="let slide of sliderImages">
+      <div class="picsum-img-wrapper">
+        <img class="d-block w-100 img-fluid" [src]="slide['image']" alt="Random slide">
+      </div>
+      <div class="carousel-caption d-md-block d-block text-left text-uppercase">
+        <h5>{{slide['content']}}</h5>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+</div>

@@ -1,1 +1,43 @@
-<p>Home Works!</p>
+<div id="jumbo" class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-5 title text-center">Langhausen * Enterprises</h1>
+    <p class="description lead text-center">Your JukeBox Repair Service</p>
+
+    <ul ngbNav #nav="ngbNav" class="nav">
+      <li ngbNavItem class="nav-item">
+        <a ngbNavLink>Home</a>
+        <ng-template ngbNavContent>
+          <app-image-slider
+            [sliderImages]="carouselImageSlider"
+          ></app-image-slider>
+        </ng-template>
+      </li>
+      <li><p class="non-link">//</p></li>
+      <li ngbNavItem class="nav-item">
+        <a ngbNavLink>Services</a>
+        <ng-template ngbNavContent>
+          <p>Put Content Here</p>
+        </ng-template>
+      </li>
+      <li><p class="non-link">//</p></li>
+      <li ngbNavItem class="nav-item">
+        <a ngbNavLink>About</a>
+        <ng-template ngbNavContent>
+          <app-image-slider
+            [sliderImages]="carouselImageSlider"
+          ></app-image-slider>
+        </ng-template>
+      </li>
+      <li><p class="non-link">//</p></li>
+      <li ngbNavItem class="nav-item">
+        <a ngbNavLink>Contact</a>
+        <ng-template ngbNavContent>
+          <app-image-slider
+            [sliderImages]="carouselImageSlider"
+          ></app-image-slider>
+        </ng-template>
+      </li>
+    </ul>
+    <div [ngbNavOutlet]="nav"></div>
+  </div>
+</div>

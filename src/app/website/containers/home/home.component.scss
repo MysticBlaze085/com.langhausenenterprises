@@ -1,0 +1,48 @@
+#jumbo {
+  height: 94.2vh;
+  margin-bottom: 0 !important;
+  .title {
+    font-family: 'Bungee Shade', cursive;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 5vh;
+  }
+  .description {
+    font-family: 'Rubik', sans-serif;
+    .lead {
+      font-size: 1.25rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.nav {
+  font-family: 'Rajdhani', sans-serif;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  border-top: 1px solid rgba(51, 51, 51, 0.3);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+
+  .nav-item {
+    &.nav-item:hover {
+      background: rgba(51, 51, 51, 1);
+    }
+
+    .nav-link {
+      margin-bottom: 0px !important;
+      color: rgba(51, 51, 51, 1);
+      &.nav-link:hover {
+        color: #ffc107 !important;
+        text-decoration: none !important;
+      }
+    }
+  }
+
+  .non-link{
+    color: rgba(51, 51, 51, 1) !important;
+    display: block;
+    padding: 0 1rem;
+    margin: 7px auto;
+  }
+}
+
