@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Shade|Monoton|Rajdhani:700|Rubik:900');
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+html,
+body {
+  font-family: 'Rajdhani';
+  font-size: 14px;
+  height: 100%;
+}

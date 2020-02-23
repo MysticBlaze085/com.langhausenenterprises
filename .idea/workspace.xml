@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/website/components/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/website/website-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/website/website.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/=3.5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/containers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/shared/shared.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/website-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/website-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/website.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/website.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +30,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/index.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/angular.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/styles.scss" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -43,6 +54,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
@@ -94,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
+      <workItem from="1582482299550" duration="6924000" />
     </task>
     <servers />
   </component>
@@ -104,34 +117,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582426062588">
+    <state x="697" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582477872534">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582424635276" />
+    <state x="697" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582477872534" />
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582484377477">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377477" />
     <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582426062587">
+    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582484377476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582424635275" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377476" />
     <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062587" />
-    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582426062586">
+    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582484377476">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582424635274" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377476" />
     <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062586" />
-    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582426062588">
+    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582484377477">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582424635275" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377477" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state x="468" y="179" key="SettingsEditor" timestamp="1582425257842">
+    <state x="468" y="179" key="SettingsEditor" timestamp="1582482287832">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582425257842" />
-    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582424622163">
+    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582482287832" />
+    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582482381489">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582424622163" />
+    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582482381489" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.23.1920.1057/0.0.1920.1014@0.0.1920.1014" timestamp="1582424050211" />
   </component>
 </project>
