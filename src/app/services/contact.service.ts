@@ -36,7 +36,7 @@ export class ContactService {
         value: '',
         required: true,
         order: 2,
-        class: 'col-6'
+        class: 'col-12'
       }),
       new FormTextArea({
         key: 'message',
