@@ -10,6 +10,7 @@ import { ImageSliderComponent } from './components/image-slider/image-slider.com
 import {ServicesSectionComponent} from './components/services-section/services-section.component';
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
+import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ContactSectionComponent } from './components/contact-section/contact-se
     ImageSliderComponent,
     ServicesSectionComponent,
     AboutSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    TestimonialSectionComponent
   ],
   imports: [
     CommonModule,

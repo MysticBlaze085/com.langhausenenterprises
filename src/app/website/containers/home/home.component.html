@@ -1,7 +1,7 @@
 <div id="jumbo" class="jumbotron jumbotron-fluid">
   <div class="container h-100">
     <h1 class="display-5 title text-center">Langhausen * Enterprises</h1>
-    <p class="description lead text-center">Your JukeBox Repair Service</p>
+    <p class="description lead text-center text-uppercase">Your JukeBox Repair Service</p>
 
     <ul ngbNav #nav="ngbNav" class="nav">
       <li ngbNavItem class="nav-item">
@@ -24,6 +24,13 @@
         <a ngbNavLink>About</a>
         <ng-template ngbNavContent class="h-100">
           <app-about-section></app-about-section>
+        </ng-template>
+      </li>
+      <li><p class="non-link">//</p></li>
+      <li ngbNavItem class="nav-item">
+        <a ngbNavLink>Testimonials</a>
+        <ng-template ngbNavContent class="h-100">
+          <app-testimonial-section></app-testimonial-section>
         </ng-template>
       </li>
       <li><p class="non-link">//</p></li>
