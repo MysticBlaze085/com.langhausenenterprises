@@ -96,7 +96,9 @@
               "../node_modules/",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "https://assets.calendly.com/assets/external/widget.js"
+            ]
           }
         },
         "lint": {

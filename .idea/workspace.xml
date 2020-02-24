@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/classes/contact.class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-select-dropdown.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-select-dropdown.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-text-area.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-text-area.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-text-input.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-text-input.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/phone.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/classes/helpers/phone.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/calendly.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/calendly.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/contact.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/services/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/website.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/website.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/classes/helpers" />
       <recent name="$PROJECT_DIR$/src/app/classes" />
     </key>
   </component>
@@ -98,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
-      <workItem from="1582482299550" duration="18486000" />
+      <workItem from="1582482299550" duration="26863000" />
     </task>
     <servers />
   </component>
@@ -109,6 +127,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="559" y="204" key="#TSLint" timestamp="1582514671426">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="559" y="204" key="#TSLint/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582514671426" />
     <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582502237272">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -145,10 +167,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582498090100" />
-    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582500601858">
+    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582516431318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582500601858" />
+    <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582516431318" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.23.1920.1057/0.0.1920.1014@0.0.1920.1014" timestamp="1582424050211" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.class.ts</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

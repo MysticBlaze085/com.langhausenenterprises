@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule }          from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { WebsiteRoutingModule } from './website-routing.module';
 import { HomeComponent } from './containers/home/home.component';
@@ -11,6 +12,10 @@ import {ServicesSectionComponent} from './components/services-section/services-s
 import { AboutSectionComponent } from './components/about-section/about-section.component';
 import { ContactSectionComponent } from './components/contact-section/contact-section.component';
 import { TestimonialSectionComponent } from './components/testimonial-section/testimonial-section.component';
+import {MatButtonModule} from '@angular/material/button';
+import {CalendlyService} from '../services/calendly.service';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -23,12 +28,17 @@ import { TestimonialSectionComponent } from './components/testimonial-section/te
     ContactSectionComponent,
     TestimonialSectionComponent
   ],
-  imports: [
-    CommonModule,
-    WebsiteRoutingModule,
-    NgbModule,
-    NgbNavModule,
-    MatIconModule
-  ]
+    imports: [
+        CommonModule,
+        WebsiteRoutingModule,
+        NgbModule,
+        NgbNavModule,
+        MatIconModule,
+        MatButtonModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule
+    ],
+    providers: [CalendlyService]
 })
 export class WebsiteModule {}
