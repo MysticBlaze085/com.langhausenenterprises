@@ -3,22 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/classes/helpers/form-select-dropdown.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-select-dropdown.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/classes/helpers/form-text-area.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-text-area.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/classes/helpers/form-text-input.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/classes/helpers/form-text-input.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/classes/helpers/phone.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/classes/helpers/phone.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/calendly.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/calendly.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/services/contact.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/contact.service.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/image-slider/image-slider.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/image-slider/image-slider.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/containers/website/website.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/website/website.component.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +18,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/index.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/angular.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/styles.scss" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="JsFlowSettings">
@@ -109,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
-      <workItem from="1582482299550" duration="27806000" />
+      <workItem from="1582482299550" duration="28959000" />
     </task>
     <servers />
   </component>
@@ -136,30 +124,34 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582477872534" />
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582484377477">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582519920759">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377477" />
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920759" />
     <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582484377476">
+    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582519920756">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377476" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920756" />
     <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062587" />
-    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582484377476">
+    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582519920755">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377476" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920755" />
     <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062586" />
-    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582484377477">
+    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582519920757">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582484377477" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920757" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
     <state x="468" y="179" key="SettingsEditor" timestamp="1582498090100">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582498090100" />
+    <state x="716" y="272" width="643" height="486" key="find.popup" timestamp="1582520414608">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="716" y="272" width="643" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582520414608" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582516431318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
