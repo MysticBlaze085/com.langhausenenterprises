@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
-      <workItem from="1582482299550" duration="28959000" />
+      <workItem from="1582482299550" duration="30002000" />
     </task>
     <servers />
   </component>
