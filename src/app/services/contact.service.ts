@@ -20,7 +20,8 @@ export class ContactService {
         value: '',
         required: true,
         order: 1,
-        class: 'col-6'
+        class: 'col-6',
+        validators: [Validators.required]
       }),
       new FormTextInput({
         key: 'lastName',
@@ -28,7 +29,8 @@ export class ContactService {
         value: '',
         required: true,
         order: 2,
-        class: 'col-6'
+        class: 'col-6',
+        validators: [Validators.required]
       }),
       new Phone({
         key: 'phoneNumber',
@@ -44,16 +46,19 @@ export class ContactService {
         value: 'Description of repair needed or questions you may have...',
         required: true,
         order: 3,
-        class: 'col-12'
+        class: 'col-12',
+        validators: [Validators.required,
+          Validators.minLength(15)]
       })
     ];
 
     return of(contact.sort((a, b) => a.order - b.order));
   }
 
-  buildFormGroup(question) {
+  buildFormGroup(contactForm) {
     let group: any = {};
-    question.forEach(input => {
+    contactForm.forEach(input => {
+      console.log('input', input);
       group[input.key] = input.required
         ? new FormControl(input.value || '', Validators.required)
         : new FormControl(input.value || '');

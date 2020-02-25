@@ -37,7 +37,7 @@
       <li ngbNavItem class="nav-item">
         <a ngbNavLink>Contact</a>
         <ng-template ngbNavContent class="h-100">
-          <app-contact-section></app-contact-section>
+          <app-contact-section (emitFormSubmit)="onSubmit($event)"></app-contact-section>
         </ng-template>
       </li>
     </ul>

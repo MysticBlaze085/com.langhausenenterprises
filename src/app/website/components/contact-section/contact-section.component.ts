@@ -4,7 +4,7 @@ import {
   OnInit,
   ViewChild,
   VERSION,
-  Input
+  Input, EventEmitter, Output
 } from '@angular/core';
 import { Router } from '@angular/router';
 import { CalendlyService } from '../../../services/calendly.service';
@@ -25,6 +25,9 @@ class FormGroupBase<T> {}
 })
 export class ContactSectionComponent implements OnInit {
   @Input() content: FormGroupBase<any>;
+
+  @Output() emitFormSubmit: EventEmitter<any> = new EventEmitter<any>();
+
   @ViewChild('container', { static: true }) container: ElementRef;
   form: FormGroup;
   payload = '';
@@ -52,7 +55,8 @@ export class ContactSectionComponent implements OnInit {
     // });
   }
 
-  onSubmit() {
-    this.payload = JSON.stringify(this.form.getRawValue());
+  onSubmit(event) {
+    console.log('emit', event);
+    // this.payload = JSON.stringify(this.form.getRawValue());
   }
 }

@@ -21,13 +21,10 @@
 
         <!-- Calendly inline widget end -->
         <ng-container *ngIf="contactForm$ | async as content">
-          <form class="row" [formGroup]="form">
+          <form class="row" [formGroup]="form" (ngSubmit)="onSubmit(form)">
             <div *ngFor="let contact of content" [ngClass]="contact.class">
               <div [ngSwitch]="contact.controlType">
-                <mat-form-field
-                        class="w-100"
-                  *ngSwitchCase="'textbox'"
-                >
+                <mat-form-field class="w-100" *ngSwitchCase="'textbox'">
                   <mat-label>{{ contact.label }}</mat-label>
                   <input
                     matInput
@@ -42,6 +39,7 @@
                 <mat-form-field class="w-100" *ngSwitchCase="'phone'">
                   <mat-label>{{ contact.label }}</mat-label>
                   <input
+                    type="tel"
                     matInput
                     [formControlName]="contact.key"
                     placeholder="{{ contact.placeholder }}"
@@ -55,19 +53,26 @@
                 <mat-form-field class="w-100" *ngSwitchCase="'text-area'">
                   <mat-label>{{ contact.label }}</mat-label>
                   <input
-                          matInput
-                          [formControlName]="contact.key"
-                          placeholder="{{ contact.placeholder }}"
-                          [value]="contact.value || ''"
-                          [id]="contact.key"
-                          [type]="contact.type"
-                          [ngClass]="contact.class"
+                    matInput
+                    [formControlName]="contact.key"
+                    placeholder="{{ contact.placeholder }}"
+                    [value]="contact.value || ''"
+                    [id]="contact.key"
+                    [type]="contact.type"
+                    [ngClass]="contact.class"
                   />
                 </mat-form-field>
               </div>
             </div>
             <div class="col-12">
-              <button mat-raised-button class="w-100" type="submit" [disabled]="!form.valid">Save</button>
+              <button
+                mat-raised-button
+                class="w-100"
+                type="submit"
+                [disabled]="!form.valid"
+              >
+                Save
+              </button>
             </div>
           </form>
         </ng-container>
