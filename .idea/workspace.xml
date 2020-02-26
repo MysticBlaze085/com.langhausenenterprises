@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/contact.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/functions/src/index.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/index.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/angular.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="SKIP_HIGHLIGHTING" />
@@ -95,6 +107,7 @@
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
       <workItem from="1582482299550" duration="33335000" />
+      <workItem from="1582672785908" duration="11645000" />
     </task>
     <servers />
   </component>
@@ -105,14 +118,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="559" y="204" key="#Inspections" timestamp="1582674520115">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="559" y="204" key="#Inspections/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582674520115" />
     <state x="559" y="204" key="#TSLint" timestamp="1582514671426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="204" key="#TSLint/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582514671426" />
-    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582502237272">
+    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582684537093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582502237272" />
+    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582684537093" />
     <state x="772" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1582491405452">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -121,40 +138,48 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582477872534" />
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582519920759">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582681718262">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920759" />
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582681718262" />
     <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582519920756">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771392" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582681718260">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920756" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582681718260" />
     <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062587" />
-    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582519920755">
+    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771390" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582681718259">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920755" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582681718259" />
     <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062586" />
-    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582519920757">
+    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771389" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582681718260">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920757" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582681718260" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771391" />
     <state x="468" y="179" key="SettingsEditor" timestamp="1582498090100">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582498090100" />
-    <state x="627" y="264" width="687" height="486" key="find.popup" timestamp="1582591514798">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="716" y="272" width="643" height="486" key="find.popup" timestamp="1582674434343">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="716" y="272" width="643" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582520414608" />
-    <state x="627" y="264" width="687" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582591514798" />
+    <state x="716" y="272" width="643" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582674434343" />
+    <state x="627" y="264" width="687" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582602956997" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582516431318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582516431318" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.23.1920.1057/0.0.1920.1014@0.0.1920.1014" timestamp="1582424050211" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1582601461728">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582601461728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -162,7 +187,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.class.ts</url>
           <line>25</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

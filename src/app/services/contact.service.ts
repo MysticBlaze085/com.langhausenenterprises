@@ -4,7 +4,7 @@ import { FormBuilderBase } from '../classes/helpers/form-builder-base';
 import { of } from 'rxjs';
 import { Phone } from '../classes/helpers/phone';
 import { FormTextArea } from '../classes/helpers/form-text-area';
-import {FormControl, FormGroup, Validators} from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Injectable({
   providedIn: 'root'
@@ -43,12 +43,13 @@ export class ContactService {
       new FormTextArea({
         key: 'message',
         label: 'Message',
-        value: 'Description of repair needed or questions you may have...',
+        placeholder:
+          'Description of repair needed or questions you may have...',
+        value: '',
         required: true,
         order: 3,
         class: 'col-12',
-        validators: [Validators.required,
-          Validators.minLength(15)]
+        validators: [Validators.required, Validators.minLength(15)]
       })
     ];
 
