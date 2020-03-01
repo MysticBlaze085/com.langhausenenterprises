@@ -11,17 +11,8 @@
       class="row h-100 p-4 d-flex flex-column justify-content-center align-items-center"
     >
       <div class="col-8">
-        <!-- Calendly inline widget begin -->
-        <!--          <div-->
-        <!--            #container-->
-        <!--            class="calendly-inline-widget"-->
-        <!--            style="min-width:320px;height:550px;"-->
-        <!--            data-auto-load="false"-->
-        <!--          ></div>-->
-
-        <!-- Calendly inline widget end -->
         <ng-container *ngIf="contactForm$ | async as content">
-          <form class="row" [formGroup]="form" (ngSubmit)="onSubmit(form)">
+          <form class="row" [formGroup]="form">
             <div *ngFor="let contact of content" [ngClass]="contact.class">
               <div [ngSwitch]="contact.controlType">
                 <mat-form-field class="w-100" *ngSwitchCase="'textbox'">
@@ -69,9 +60,10 @@
                 mat-raised-button
                 class="w-100"
                 type="submit"
+                (click)="onSubmit(form.value)"
                 [disabled]="!form.valid"
               >
-                Save
+                Submit
               </button>
             </div>
           </form>

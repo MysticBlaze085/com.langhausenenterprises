@@ -21,7 +21,8 @@ export class ContactService {
         required: true,
         order: 1,
         class: 'col-6',
-        validators: [Validators.required]
+        validators: Validators.required,
+        type: 'text'
       }),
       new FormTextInput({
         key: 'lastName',
@@ -30,7 +31,8 @@ export class ContactService {
         required: true,
         order: 2,
         class: 'col-6',
-        validators: [Validators.required]
+        validators: Validators.required,
+        type: 'text'
       }),
       new Phone({
         key: 'phoneNumber',
@@ -38,7 +40,19 @@ export class ContactService {
         value: '',
         required: true,
         order: 2,
-        class: 'col-12'
+        class: 'col-6',
+        validators: Validators.required,
+        type: 'tel'
+      }),
+      new FormTextInput({
+        key: 'email',
+        label: 'Email',
+        value: '',
+        required: true,
+        order: 3,
+        class: 'col-6',
+        validators: [Validators.required, Validators.email],
+        type: 'email'
       }),
       new FormTextArea({
         key: 'message',
@@ -47,9 +61,10 @@ export class ContactService {
           'Description of repair needed or questions you may have...',
         value: '',
         required: true,
-        order: 3,
+        order: 4,
         class: 'col-12',
-        validators: [Validators.required, Validators.minLength(15)]
+        type: 'text',
+        validCheck: [Validators.required, Validators.minLength(15)]
       })
     ];
 
@@ -57,6 +72,7 @@ export class ContactService {
   }
 
   buildFormGroup(contactForm) {
+    console.log('contact', contactForm);
     let group: any = {};
     contactForm.forEach(input => {
       console.log('input', input);

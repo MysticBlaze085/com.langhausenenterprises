@@ -2,18 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/mysticblaze085.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdA.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9jb21MRQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/tslint.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/services/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/image-slider/image-slider.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/image-slider/image-slider.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +42,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/functions/src/index.ts" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/index.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/angular.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="SKIP_HIGHLIGHTING" />
@@ -56,7 +73,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +124,8 @@
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
       <workItem from="1582482299550" duration="33335000" />
-      <workItem from="1582672785908" duration="11645000" />
+      <workItem from="1582672785908" duration="36878000" />
+      <workItem from="1583018979783" duration="8232000" />
     </task>
     <servers />
   </component>
@@ -162,23 +180,28 @@
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582681718260" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771391" />
-    <state x="468" y="179" key="SettingsEditor" timestamp="1582498090100">
+    <state x="468" y="179" key="SettingsEditor" timestamp="1583018966301">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582498090100" />
-    <state x="716" y="272" width="643" height="486" key="find.popup" timestamp="1582674434343">
+    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018966301" />
+    <state x="570" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582858549609">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="716" y="272" width="643" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582674434343" />
+    <state x="570" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582858549609" />
+    <state x="716" y="272" width="643" height="486" key="find.popup" timestamp="1583022353467">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="716" y="272" width="643" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583022353467" />
     <state x="627" y="264" width="687" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582602956997" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582516431318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582516431318" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.23.1920.1057/0.0.1920.1014@0.0.1920.1014" timestamp="1582424050211" />
-    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1582601461728">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="575" y="238" width="768" height="698" key="search.everywhere.popup" timestamp="1582858092526">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="575" y="238" width="768" height="698" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582858092526" />
     <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582601461728" />
   </component>
   <component name="XDebuggerManager">
