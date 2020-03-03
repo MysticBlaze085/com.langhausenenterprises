@@ -10,10 +10,6 @@ export class CalendlyService {
   constructor(private http: HttpClient) { }
 
   createCalendlyEntry(UserName: string) {
-    return this.http.post(`https://hookb.in/E7EEykKyYnUdrLgJYe1Q/`, UserName)
-        .pipe(
-            tap(response => console.log('testing', response))
-        );
-
+    return this.http.post(`https://hookb.in/E7EEykKyYnUdrLgJYe1Q/`, UserName);
   }
 }

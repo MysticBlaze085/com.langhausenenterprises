@@ -1,6 +1,7 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { ImageSliderComponent } from './image-slider.component';
+import {NO_ERRORS_SCHEMA} from '@angular/core';
 
 describe('ImageSliderComponent', () => {
   let component: ImageSliderComponent;
@@ -8,6 +9,7 @@ describe('ImageSliderComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      schemas: [NO_ERRORS_SCHEMA],
       declarations: [ ImageSliderComponent ]
     })
     .compileComponents();
