@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,10 +165,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="570" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582858549609" />
-    <state x="716" y="271" width="782" height="486" key="find.popup" timestamp="1583199979972">
+    <state x="716" y="271" width="782" height="486" key="find.popup" timestamp="1583204626434">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="716" y="271" width="782" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583199979972" />
+    <state x="716" y="271" width="782" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583204626434" />
     <state x="627" y="264" width="687" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582602956997" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582516431318">
       <screen x="0" y="0" width="1920" height="1080" />
