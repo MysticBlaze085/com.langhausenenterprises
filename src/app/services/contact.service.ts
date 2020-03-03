@@ -4,7 +4,7 @@ import { FormBuilderBase } from '../classes/helpers/form-builder-base';
 import { of } from 'rxjs';
 import { Phone } from '../classes/helpers/phone';
 import { FormTextArea } from '../classes/helpers/form-text-area';
-import {FormControl, FormGroup, Validators} from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Injectable({
   providedIn: 'root'
@@ -20,7 +20,9 @@ export class ContactService {
         value: '',
         required: true,
         order: 1,
-        class: 'col-6'
+        class: 'col-6',
+        validators: Validators.required,
+        type: 'text'
       }),
       new FormTextInput({
         key: 'lastName',
@@ -28,7 +30,9 @@ export class ContactService {
         value: '',
         required: true,
         order: 2,
-        class: 'col-6'
+        class: 'col-6',
+        validators: Validators.required,
+        type: 'text'
       }),
       new Phone({
         key: 'phoneNumber',
@@ -36,24 +40,42 @@ export class ContactService {
         value: '',
         required: true,
         order: 2,
-        class: 'col-12'
+        class: 'col-6',
+        validators: Validators.required,
+        type: 'tel'
+      }),
+      new FormTextInput({
+        key: 'email',
+        label: 'Email',
+        value: '',
+        required: true,
+        order: 3,
+        class: 'col-6',
+        validators: [Validators.required, Validators.email],
+        type: 'email'
       }),
       new FormTextArea({
         key: 'message',
         label: 'Message',
-        value: 'Description of repair needed or questions you may have...',
+        placeholder:
+          'Description of repair needed or questions you may have...',
+        value: '',
         required: true,
-        order: 3,
-        class: 'col-12'
+        order: 4,
+        class: 'col-12',
+        type: 'text',
+        validCheck: [Validators.required, Validators.minLength(15)]
       })
     ];
 
     return of(contact.sort((a, b) => a.order - b.order));
   }
 
-  buildFormGroup(question) {
+  buildFormGroup(contactForm) {
+    console.log('contact', contactForm);
     let group: any = {};
-    question.forEach(input => {
+    contactForm.forEach(input => {
+      console.log('input', input);
       group[input.key] = input.required
         ? new FormControl(input.value || '', Validators.required)
         : new FormControl(input.value || '');

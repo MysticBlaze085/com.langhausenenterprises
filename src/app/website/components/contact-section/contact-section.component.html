@@ -11,23 +11,11 @@
       class="row h-100 p-4 d-flex flex-column justify-content-center align-items-center"
     >
       <div class="col-8">
-        <!-- Calendly inline widget begin -->
-        <!--          <div-->
-        <!--            #container-->
-        <!--            class="calendly-inline-widget"-->
-        <!--            style="min-width:320px;height:550px;"-->
-        <!--            data-auto-load="false"-->
-        <!--          ></div>-->
-
-        <!-- Calendly inline widget end -->
         <ng-container *ngIf="contactForm$ | async as content">
           <form class="row" [formGroup]="form">
             <div *ngFor="let contact of content" [ngClass]="contact.class">
               <div [ngSwitch]="contact.controlType">
-                <mat-form-field
-                        class="w-100"
-                  *ngSwitchCase="'textbox'"
-                >
+                <mat-form-field class="w-100" *ngSwitchCase="'textbox'">
                   <mat-label>{{ contact.label }}</mat-label>
                   <input
                     matInput
@@ -42,6 +30,7 @@
                 <mat-form-field class="w-100" *ngSwitchCase="'phone'">
                   <mat-label>{{ contact.label }}</mat-label>
                   <input
+                    type="tel"
                     matInput
                     [formControlName]="contact.key"
                     placeholder="{{ contact.placeholder }}"
@@ -55,19 +44,27 @@
                 <mat-form-field class="w-100" *ngSwitchCase="'text-area'">
                   <mat-label>{{ contact.label }}</mat-label>
                   <input
-                          matInput
-                          [formControlName]="contact.key"
-                          placeholder="{{ contact.placeholder }}"
-                          [value]="contact.value || ''"
-                          [id]="contact.key"
-                          [type]="contact.type"
-                          [ngClass]="contact.class"
+                    matInput
+                    [formControlName]="contact.key"
+                    placeholder="{{ contact.placeholder }}"
+                    [value]="contact.value || ''"
+                    [id]="contact.key"
+                    [type]="contact.type"
+                    [ngClass]="contact.class"
                   />
                 </mat-form-field>
               </div>
             </div>
             <div class="col-12">
-              <button mat-raised-button class="w-100" type="submit" [disabled]="!form.valid">Save</button>
+              <button
+                mat-raised-button
+                class="w-100"
+                type="submit"
+                (click)="onSubmit(form.value)"
+                [disabled]="!form.valid"
+              >
+                Submit
+              </button>
             </div>
           </form>
         </ng-container>

@@ -1,7 +1,19 @@
 <div id="jumbo" class="jumbotron jumbotron-fluid">
   <div class="container h-100">
-    <h1 class="display-5 title text-center">Langhausen * Enterprises</h1>
-    <p class="description lead text-center text-uppercase">Your JukeBox Repair Service</p>
+    <div class="row">
+      <div class="col-12 d-none d-sm-block">
+        <h1 class="display-5 title text-center">Langhausen * Enterprises</h1>
+        <p class="description lead text-center text-uppercase">
+          Your JukeBox Repair Service
+        </p>
+      </div>
+      <div class="col-12 d-sm-none">
+        <h4 class="title title-small text-center">Langhausen * Enterprises</h4>
+        <p class="description lead text-center text-uppercase">
+          Your JukeBox Repair Service
+        </p>
+      </div>
+    </div>
 
     <ul ngbNav #nav="ngbNav" class="nav">
       <li ngbNavItem class="nav-item">
@@ -33,13 +45,13 @@
           <app-testimonial-section></app-testimonial-section>
         </ng-template>
       </li>
-      <li><p class="non-link">//</p></li>
-      <li ngbNavItem class="nav-item">
-        <a ngbNavLink>Contact</a>
-        <ng-template ngbNavContent class="h-100">
-          <app-contact-section></app-contact-section>
-        </ng-template>
-      </li>
+      <!--      <li><p class="non-link">//</p></li>-->
+      <!--      <li ngbNavItem class="nav-item">-->
+      <!--        <a ngbNavLink>Contact</a>-->
+      <!--        <ng-template ngbNavContent class="h-100">-->
+      <!--          <app-contact-section (emitFormSubmit)="onSubmit($event)"></app-contact-section>-->
+      <!--        </ng-template>-->
+      <!--      </li>-->
     </ul>
     <div [ngbNavOutlet]="nav"></div>
   </div>

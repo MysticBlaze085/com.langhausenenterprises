@@ -1,5 +1,5 @@
 #jumbo {
-  height: 94.2vh;
+  height: 100%;
   margin-bottom: 0 !important;
   .title {
     font-family: 'Bungee Shade', cursive;
@@ -48,4 +48,8 @@
 
 .tab-pane {
   min-height: 550px;
+}
+
+.title-small {
+  font-size: 1.5rem !important;
 }

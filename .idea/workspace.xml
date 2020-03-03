@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93b60a9c-779e-49aa-bd84-0bdaa55ee3e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9jb21MRQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.ZGlzdC9jb21MRQ.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/about-section/about-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/services-section/services-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/testimonial-section/testimonial-section.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +38,11 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1YBaBf6k0r8plHOuI7hF6OiIzGl" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,7 +61,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -95,6 +112,8 @@
       <updated>1582418306216</updated>
       <workItem from="1582418307560" duration="736000" />
       <workItem from="1582482299550" duration="33335000" />
+      <workItem from="1582672785908" duration="36878000" />
+      <workItem from="1583018979783" duration="8232000" />
     </task>
     <servers />
   </component>
@@ -105,14 +124,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="559" y="204" key="#Inspections" timestamp="1582674520115">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="559" y="204" key="#Inspections/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582674520115" />
     <state x="559" y="204" key="#TSLint" timestamp="1582514671426">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="559" y="204" key="#TSLint/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582514671426" />
-    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582502237272">
+    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582684537093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582502237272" />
+    <state x="713" y="349" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582684537093" />
     <state x="772" y="262" key="#com.intellij.ide.util.MemberChooser" timestamp="1582491405452">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -121,40 +144,53 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="697" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582477872534" />
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1582519920759">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom" timestamp="1583200181619">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920759" />
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583200181619" />
     <state width="1876" height="304" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1582519920756">
+    <state width="1876" height="304" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771392" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center" timestamp="1583200181618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920756" />
+    <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583200181618" />
     <state width="1876" height="304" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062587" />
-    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1582519920755">
+    <state width="1876" height="304" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771390" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left" timestamp="1583200181617">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920755" />
+    <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583200181617" />
     <state width="1876" height="304" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062586" />
-    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1582519920757">
+    <state width="1876" height="304" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771389" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right" timestamp="1583200181618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582519920757" />
+    <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583200181618" />
     <state width="1876" height="304" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.0.1920.1080@0.0.1920.1080" timestamp="1582426062588" />
-    <state x="468" y="179" key="SettingsEditor" timestamp="1582498090100">
+    <state width="1876" height="304" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1582650771391" />
+    <state x="468" y="179" key="SettingsEditor" timestamp="1583018966301">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582498090100" />
-    <state x="627" y="264" width="687" height="486" key="find.popup" timestamp="1582591514798">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="468" y="179" key="SettingsEditor/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583018966301" />
+    <state x="570" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582858549609">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="716" y="272" width="643" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582520414608" />
-    <state x="627" y="264" width="687" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582591514798" />
+    <state x="570" y="157" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582858549609" />
+    <state x="716" y="271" width="782" height="486" key="find.popup" timestamp="1583199979972">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="716" y="271" width="782" height="486" key="find.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1583199979972" />
+    <state x="627" y="264" width="687" height="486" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582602956997" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate" timestamp="1582516431318">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582516431318" />
     <state x="831" y="474" width="348" height="298" key="org.angular.cli.generate/-1920.23.1920.1057/0.0.1920.1014@0.0.1920.1014" timestamp="1582424050211" />
+    <state x="575" y="238" width="768" height="698" key="search.everywhere.popup" timestamp="1582858092526">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="575" y="238" width="768" height="698" key="search.everywhere.popup/-1920.0.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1582858092526" />
+    <state x="503" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1582601461728" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -162,7 +198,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/classes/helpers/form-builder-base.class.ts</url>
           <line>25</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
