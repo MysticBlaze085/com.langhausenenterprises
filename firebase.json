@@ -2,7 +2,7 @@
   "hosting": {
     "public": "dist/comLE",
     "ignore": [
-      "firebase.json",
+      "falsejson",
       "**/.*",
       "**/node_modules/**"
     ],
