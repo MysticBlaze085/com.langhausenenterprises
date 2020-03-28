@@ -5,7 +5,16 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/calendly.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/calendly.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/services/contact.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/services/contact.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/contact-section/contact-section.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/image-slider/image-slider.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/image-slider/image-slider.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/components/top-navigation/top-navigation.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/containers/website/website.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/containers/website/website.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/website/website.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/website/website.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +112,8 @@
       <workItem from="1582482299550" duration="33335000" />
       <workItem from="1582672785908" duration="36878000" />
       <workItem from="1583018979783" duration="8232000" />
+      <workItem from="1585434061090" duration="3000" />
+      <workItem from="1585434136020" duration="54000" />
     </task>
     <servers />
   </component>
