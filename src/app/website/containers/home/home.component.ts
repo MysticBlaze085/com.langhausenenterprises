@@ -25,7 +25,5 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  onSubmit(event) {
-    console.log('form', event);
-  }
+  onSubmit(event) {}
 }

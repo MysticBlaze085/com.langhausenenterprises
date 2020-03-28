@@ -53,12 +53,11 @@ export class ContactSectionComponent implements OnInit {
 
     this.contactForm$ = this.contactService.getContact().pipe(
       tap(res => {
-        console.log('ressss', res);
         this.form = this.contactService.buildFormGroup(res);
       })
     );
 
-    this.contactService.getContact().subscribe(res => console.log('test', res));
+    this.contactService.getContact();
     // @ts-ignore
     Calendly.initInlineWidget({
       url:
@@ -68,8 +67,6 @@ export class ContactSectionComponent implements OnInit {
   }
 
   onSubmit(value: any): void {
-    console.log('emit', value);
-
     this.submitting = true;
     this.submissionForm
       .add(value)

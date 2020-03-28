@@ -72,10 +72,8 @@ export class ContactService {
   }
 
   buildFormGroup(contactForm) {
-    console.log('contact', contactForm);
     let group: any = {};
     contactForm.forEach(input => {
-      console.log('input', input);
       group[input.key] = input.required
         ? new FormControl(input.value || '', Validators.required)
         : new FormControl(input.value || '');
