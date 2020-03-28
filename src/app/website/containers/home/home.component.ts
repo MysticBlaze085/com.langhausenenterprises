@@ -19,7 +19,7 @@ export class HomeComponent implements OnInit {
       image: `assets/images/showcase.jpg`,
       content: `SELL JUKEBOXES FOR A FAIR PRICE AND REPAIR WHAT WE SELL.`
     }
-  ]
+  ];
 
   constructor() {}
 
