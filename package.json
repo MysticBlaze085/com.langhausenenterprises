@@ -33,6 +33,7 @@
         "firebase": "^7.9.3",
         "ngx-bootstrap": "^5.3.2",
         "nodemailer": "^6.4.3",
+        "npm": "^9.6.4",
         "postinstall": "^0.7.0",
         "rxjs": "~6.5.4",
         "tslib": "^1.10.0",
@@ -43,7 +44,6 @@
     },
     "devDependencies": {
         "@angular-devkit/build-angular": "^0.901.0",
-        "@angular/cli": "^9.1.0",
         "@angular/compiler-cli": "~9.0.2",
         "@angular/language-service": "~9.0.2",
         "@types/jasmine": "~3.3.8",
